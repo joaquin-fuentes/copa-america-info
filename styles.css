@@ -19,7 +19,12 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f0f0f0;
-  color: #333;
+  color: #333;   
+  background: linear-gradient(rgba(19, 19, 187, 0.727), rgba(0, 0, 0, 0.5)), 
+  url("https://i.pinimg.com/564x/b9/49/74/b9497446706d88dd0a8631d499e197b2.jpg");
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
 }
 
 /* HEADER */
@@ -76,6 +81,7 @@ body {
   margin: 30px;
   border-radius: 15px;
   color: white;
+  opacity: 0.8;
 }
 
 .banner-content {
@@ -115,6 +121,7 @@ body {
   display: flex;
   justify-content: space-around;
   margin: 30px;
+
 }
 
 .link-box {
@@ -124,6 +131,10 @@ body {
   border-radius: 10px;
   overflow: hidden;
   transition: transform 0.3s;
+  opacity: 0.8;
+}
+.link-box:hover{
+  opacity: 1;
 }
 
 .link-box:hover {
@@ -152,6 +163,8 @@ body {
   background-color: #0e1d72;
   padding: 20px;
   border-radius: 10px;
+  opacity: 0.8;
+
 }
 
 .titulo-sponsors {

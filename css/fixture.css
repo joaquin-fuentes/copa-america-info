@@ -2,11 +2,16 @@
 .contenedor-fixture{
     padding: 20px 50px;
 }
+.tituloSeccion{
+  color: white;
+  font-weight: bold;
+}
 .contenedorGrupos {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  opacity: 0.8;
 }
 .grupo {
   width: 40%;
