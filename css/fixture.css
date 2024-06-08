@@ -1,0 +1,149 @@
+/* ESTILOS DE SECCION DE GRUPOS */
+.contenedor-fixture{
+    padding: 20px 50px;
+}
+.contenedorGrupos {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.grupo {
+  width: 24%;
+  margin-bottom: 20px;
+}
+hr{
+    margin: 10px 0;
+}
+.grupo .titulo-grupo {
+  padding: 10px;
+  text-align: center;
+  background-color: #0e1d72;
+  color: rgba(255, 255, 255, 0.904);
+}
+
+.partido {
+  display: flex;
+  flex-direction: column;
+}
+.infoPartido {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(6, 3, 81);
+}
+.diaHora {
+  margin-left: 10px;
+}
+.estadio {
+  margin-right: 10px;
+}
+.equipos {
+  display: flex;
+  justify-content: space-between;
+}
+.partido:nth-child(even) {
+  background-color: #8f8ce4;
+}
+.partido:nth-child(odd) {
+  background-color: rgb(200, 201, 216);
+}
+
+.partido div p {
+  font-size: 12px;
+}
+.vs {
+  font-weight: 650;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 70%;
+}
+.res {
+  text-align: center;
+  width: 20%;
+}
+.loc {
+  width: 40%;
+}
+.vis {
+  width: 40%;
+}
+
+.local {
+  text-align: left;
+}
+.local img {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  width: 27px;
+  height: 27px;
+}
+.visitante {
+  text-align: right;
+}
+.visitante img {
+  margin-right: 20px;
+  margin-bottom: 10px;
+  width: 27px;
+  height: 27px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+/* SECCION PLayOff*/
+
+.partidoPlayOff:nth-child(even) {
+  background-color: #8f8ce4;
+}
+.partidoPlayOff:nth-child(odd) {
+  background-color: rgb(200, 201, 216);
+}
+.partidoPlayOff {
+  color: rgb(6, 3, 81);
+  padding: 7px;
+  font-size: 12px;
+}
+
+/* Boton volver arriba */
+.contenedorVolverArriba {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.contenedorVolverArriba a {
+  color: #0e1d72;
+  text-shadow: 2px 2px 2px gray;
+  text-decoration: none;
+}
+.contenedorVolverArriba a:hover {
+  text-decoration: underline;
+  color: rgb(70, 70, 70);
+}
+
+/* media query medium */
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .grupo {
+    width: 45%;
+  }
+}
+/* media query small */
+
+@media screen and (max-width: 767px) {
+  .grupo {
+    width: 100%;
+  }
+
+  .visitante img {
+    margin-right: 10px;
+  }
+  .local img {
+    margin-right: 10px;
+  }
+}

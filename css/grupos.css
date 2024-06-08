@@ -1,0 +1,76 @@
+body{
+    background-color: #0e1d72;
+}
+hr{
+    margin: 5px 0;
+}
+.titulo{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+.contenedor-grupos{
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.grupo{
+    background-color: #060a2047;
+    color: white;
+    padding:10px;
+    padding-bottom: 10px;
+    width: 20%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    .titulo-grupo{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0;
+    }
+    .equipo-grupo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+        .contenedor-bandera-nombre{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 40px;
+                height: 40px;
+                margin-right: 10px;
+                border: 1px solid white;
+                border-radius: 100px;
+                object-fit: fill
+            };
+        }
+    }
+}
+.puntos{
+    opacity: 0.8;
+}
+
+/* media query medium */
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .contenedor-grupos{
+        margin-bottom: 30px;
+    }
+   .grupo{
+    width: 45%;
+    margin-bottom: 20px;
+   }
+  }
+  /* media query small */
+  
+  @media screen and (max-width: 767px) {
+    .contenedor-grupos{
+        margin-bottom: 30px;
+    }
+    .grupo{
+        width: 80%;
+       }
+  }
