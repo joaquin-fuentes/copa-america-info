@@ -1,12 +1,12 @@
 # Copa América 2024
 
-![Copa America](./assets/imagenes/logo/logoCompletoTransparente.png 
+![Copa America](./assets/imagenes/logo/logoCompletoTransparente.png)
 
 Esta es una pagina donde se muestra info de la copa america 2024, es para realizar practicas de html y css puro.
 
 ## Demo
 
-Puedes ver una demostración de la página en vivo en [Netlify](https://copa-america-info.netlify.app/).
+Puedes ver una demostración de la página en vivo en [Copa América 2024](https://copa-america-info.netlify.app/).
 
 ## Tecnologías Utilizadas
 - HTML
