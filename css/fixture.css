@@ -9,7 +9,7 @@
   flex-wrap: wrap;
 }
 .grupo {
-  width: 24%;
+  width: 40%;
   margin-bottom: 20px;
 }
 hr{
@@ -52,10 +52,10 @@ hr{
 }
 
 .partido div p {
-  font-size: 12px;
+  font-size: 11px;
 }
 .vs {
-  font-weight: 650;
+  font-weight: bold;
   display: flex;
   text-align: center;
   align-items: center;
@@ -76,19 +76,19 @@ hr{
   text-align: left;
 }
 .local img {
-  margin-left: 20px;
+  margin-left: 10px;
   margin-bottom: 10px;
-  width: 27px;
-  height: 27px;
+  width: 23px;
+  height: 23px;
 }
 .visitante {
   text-align: right;
 }
 .visitante img {
-  margin-right: 20px;
+  margin-right: 10px;
   margin-bottom: 10px;
-  width: 27px;
-  height: 27px;
+  width: 23px;
+  height: 23px;
 }
 
 section {
